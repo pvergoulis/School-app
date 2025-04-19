@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/insertTeacher.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">
+                
+                 <img src="../images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a href="./home.html" class="nav-link me-lg-3 text-white hover-menu"><span class="d-inline-block ">Αρχική</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./teachers.html" class="nav-link me-lg-3 text-white hover-menu"><span class=" d-inline-block ">Καθηγητές</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./students.html" class="nav-link me-lg-3 text-white hover-menu"><span class="d-inline-block ">Μαθητές</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link me-lg-3 text-white hover-menu"><span class="d-inline-block  ">Logout</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <h2>Παρακαλώ εισάγετε τα στοιχεία του καθηγητή</h2>
+        <h2 id="inserted"></h2>
+        <form action="" id="form">
+            <div class="form-div">
+                <div class="input-div">
+                    <label for="firstname">Όνομα:</label>
+                    <br>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <div class="input-div">
+                    <label for="lastname">Επώνυμο:</label>
+                    <br>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div class="input-div">
+                    <label for="vat">ΑΦΜ:</label>
+                    <br>
+                    <input type="text" name="vat" id="vat">
+                </div>
+            </div>
+            <div class="form-div">
+                <div class="input-div">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="input-div">
+                    <label for="age">Ηλικία:</label>
+                    <br>
+                    <input type="number" name="age" id="age">
+                </div>
+                <div class="input-div">
+                    <label for="subject">Μαθήματα:</label>
+                    <br>
+                    <input type="text" name="subject" id="subject">
+                </div>
+            </div>
+            <div class="form-div">
+                <div class="input-div">
+                    <label for="city">Πόλη:</label>
+                    <br>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="input-div">
+                    <label for="phone">Τηλέφωνο:</label>
+                    <br>
+                    <input type="text" name="phone" id="phone">
+                </div>
+                <div class="input-div">
+                    <label for="cv">Περιγραφή Βιογραφικού:</label>
+                    <br>
+                    <textarea name="cv" id="cv"></textarea>
+                </div>
+            </div>
+            <div class="bnt-div">
+                <button class="btn btn-primary rounded-pill" type="submit">Εισαγωγή</button>
+            </div>
+        </form>
+
+    </main>
+    
+    <footer class="footer">
+        <div class="social-div">
+            <h2>SOCIAL MEDIA</h1>
+                <span class="social-fb"> <a href="https://www.facebook.com/auebcodingfactory"><i
+                            class="fa-brands fa-facebook fb"></i></a></span>
+                <span class="social-insta"> <a href="https://www.instagram.com/auebcodingfactory"><i
+                            class="fa-brands fa-instagram insta"></i></a></span>
+                <span class="social-link"> <a href="https://www.linkedin.com/company/aueb-coding-factory"><i
+                            class="fa-brands fa-linkedin link"></i></a></span>
+                <span class="social-twit"> <a href="https://x.com/auebcodingfacto"><i
+                            class="fa-brands fa-twitter twi"></i></a></span>
+        </div>
+        <div class="contact">
+            <h2>ΕΠΙΚΟΙΝΩΝΙΑ</h1>
+                <p> <a
+                        href="https://www.google.com/maps/place/%CE%9A%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%B7%CE%BD%CE%AF%CE%B1%CF%82+46,+%CE%91%CE%B8%CE%AE%CE%BD%CE%B1+112+51/@37.9992693,23.7305854,17z/data=!3m1!4b1!4m5!3m4!1s0x14a1a2cec5f92fc1:0x59024e20136e3d8e!8m2!3d37.9992651!4d23.7327741?shorturl=1">Κεφαλληνίας
+                        46, 6ος όροφος, 112 51 Αθήνα</a></p>
+                <p> Αθανάσιος Ανδρούτσος, Επιστημονικός Υπεύθυνος <br> Προγράμματος, 210 8203913</p>
+                <p>Email : codingfactory@aueb.gr</p>
+        </div>
+
+    </footer>
+    <script src="../js/insertTeacher.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
+</body>
+</html>

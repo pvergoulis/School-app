@@ -1,0 +1,248 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 115px;
+    border: 1px solid black;
+    background-color:rgb(155, 69, 69);
+}
+
+.welcome{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.welcome h1 {
+    color: rgb(155, 69, 69);
+    font-size: 3rem;
+    width: 100%;
+    
+}
+
+.container {
+    margin-top: 6rem;
+}
+body{
+    height: 100vh;
+}
+
+.main {
+    border: 1px solid rgb(155, 69, 69);
+    margin: 2rem;
+    border-radius: 15px;
+    margin-bottom: 5rem;
+}
+
+.form-div{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    
+}
+.input-div{
+    margin-right: 10px;
+    width: 25%;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(155, 69, 69);
+    border-radius: 15px;
+    margin-top: 4px;
+}
+label{
+    font-weight: 600;
+   
+}
+
+
+h2 {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    text-align: center;
+    color: rgb(155, 69, 69);
+    margin-bottom: 2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.bnt-div{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-btn:hover{
+    transform: scale(1.1);
+}
+
+
+.footer{
+    padding-top: 2rem;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100%;
+}
+
+.footer div h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.social-div{
+    
+    margin-bottom: 1rem;
+    
+}
+
+.social-fb {
+    margin: 0.7rem;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: blue;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.social-insta{
+    margin: 0.7rem;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: rgb(248, 155, 155);;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.social-link{
+    margin: 0.7rem;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: rgb(103, 103, 207);
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.social-twit{
+    margin: 0.7rem;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: rgb(99, 224, 255);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.fb{
+    color: white;
+    font-size: 15px;  
+}
+
+.insta {
+    font-size: 15px;
+    color: rgb(240, 234, 235);
+}
+
+.link {
+    font-size: 15px;
+    color: rgb(240, 234, 235);
+}
+
+
+.twi {
+    font-size: 15px;
+    color: rgb(240, 234, 235);
+}
+
+
+.contact{
+  
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.contact p a {
+    text-decoration: none;
+    color: white;
+}
+.contact p{
+    color: white
+}
+
+.social-insta:hover{
+    transform: scale(1.2);
+}
+.social-fb:hover{
+    transform: scale(1.2);
+}
+.social-link:hover{
+    transform: scale(1.2);
+}
+.social-twit:hover{
+    transform: scale(1.2);
+}
+
+
+@media (max-width:700px){
+    .footer {
+        display: block;
+    }
+    .social-div {
+        text-align: center;
+    }
+   
+}
+
+
+@media (max-width:1000px){
+    .form{
+        width: 45%;
+    }
+}
+@media (max-width:670px){
+    .form{
+        width: 67%;
+    }
+}
+

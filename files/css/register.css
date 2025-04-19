@@ -1,0 +1,264 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 115px;
+    border: 1px solid black;
+    background-color:rgb(155, 69, 69);
+}
+
+.welcome{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.welcome h1 {
+    color: rgb(155, 69, 69);
+    font-size: 3rem;
+    width: 100%;
+    
+}
+
+.container {
+    margin-top: 6rem;
+}
+
+.form {
+    width: 30%;
+    border: 3px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(155, 69, 69);
+    box-shadow: 0 0 40px rgba(155, 69, 69, 0.6);
+    margin-bottom: 5rem;
+    padding: 2rem;
+
+}
+
+
+#form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    text-align: center;
+    color: rgb(155, 69, 69);
+    margin-bottom: 2rem;
+}
+
+.form-div{
+    margin-bottom: 2rem;
+}
+
+label{
+    font-size: 1.3rem;
+    color: rgb(155, 69, 69);
+    text-align: center;
+    width: 100%;
+    
+}
+
+input{
+    padding-left: 10px;
+    font-size: 1.1rem;
+    outline: none;
+    margin-top: 0.7rem;
+}
+
+
+.fields{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(155, 69, 69);
+    color: black
+}
+
+.form-btn {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.5rem;
+    background-color: rgb(155, 69, 69);
+    border-radius: 15px;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    transition: all 0.50s ease-in-out;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.form-btn:hover{
+    transform: scale(1.1);
+}
+
+
+.footer{
+    padding-top: 2rem;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.footer div h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.social-div{
+    
+    margin-bottom: 1rem;
+    
+}
+
+.social-fb {
+    margin: 0.7rem;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: blue;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.social-insta{
+    margin: 0.7rem;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: rgb(248, 155, 155);;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.social-link{
+    margin: 0.7rem;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: rgb(103, 103, 207);
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.social-twit{
+    margin: 0.7rem;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: rgb(99, 224, 255);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.fb{
+    color: white;
+    font-size: 15px;  
+}
+
+.insta {
+    font-size: 15px;
+    color: rgb(240, 234, 235);
+}
+
+.link {
+    font-size: 15px;
+    color: rgb(240, 234, 235);
+}
+
+
+.twi {
+    font-size: 15px;
+    color: rgb(240, 234, 235);
+}
+
+
+.contact{
+  
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.contact p a {
+    text-decoration: none;
+    color: white;
+}
+.contact p{
+    color: white
+}
+
+.social-insta:hover{
+    transform: scale(1.2);
+}
+.social-fb:hover{
+    transform: scale(1.2);
+}
+.social-link:hover{
+    transform: scale(1.2);
+}
+.social-twit:hover{
+    transform: scale(1.2);
+}
+
+
+@media (max-width:700px){
+    .footer {
+        display: block;
+    }
+    .social-div {
+        text-align: center;
+    }
+   
+}
+
+
+@media (max-width:1000px){
+    .form{
+        width: 45%;
+    }
+}
+@media (max-width:670px){
+    .form{
+        width: 67%;
+    }
+}
+
