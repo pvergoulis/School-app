@@ -1,8 +1,11 @@
 # School-app
 A fullstack CRUD app for teachers and students Node.js / MongoDB / html/css/js
 
-# start project
+# Installation
+git clone
 npm install
+use your  db url 
+and secret_token
 
 # Login page
 ![image alt](https://github.com/pvergoulis/School-app/blob/main/425610c9-d311-4554-a892-1ecec5b9e452.jpg?raw=true)
