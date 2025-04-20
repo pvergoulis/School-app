@@ -24,7 +24,7 @@ TEACHER PAGE
 
 
 INSERT TEACHER PAGE
-![image alt]()
+![image alt](https://github.com/pvergoulis/School-app/blob/main/d042db7d-1931-41c3-a2c3-c1b341acf67d.jpg?raw=true)
 
 
 UPDATE TEACHER PAGE
