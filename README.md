@@ -15,7 +15,7 @@ REGISER PAGE
 
 
 HOME PAGE
-![image alt]()
+![image alt](https://github.com/pvergoulis/School-app/blob/main/69832096-7b8e-4c13-95d3-adcdc7f709fa.jpg?raw=true)
 
 
 
