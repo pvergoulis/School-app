@@ -20,7 +20,7 @@ HOME PAGE
 
 
 TEACHER PAGE
-![image alt]()
+![image alt](https://github.com/pvergoulis/School-app/blob/main/53a67e41-d954-47d2-9a8c-c757093b2c51.jpg?raw=true)
 
 
 INSERT TEACHER PAGE
